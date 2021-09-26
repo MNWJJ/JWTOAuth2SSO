@@ -19,10 +19,10 @@ public class LoginController {
         return "redirect:error.html";
     }
 
-    @RequestMapping("/loginn")
-    @ResponseBody
+    @RequestMapping("/hello")
+//    @ResponseBody
     public String loginn() {
-        return "hello";
+        return "redirect:hello.html";
     }
 
 }
